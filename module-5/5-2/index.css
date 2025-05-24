@@ -1,0 +1,28 @@
+body{
+    background-color: darkgrey;
+}
+.parent{
+    background-color: lightslategray;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    height: 350px;
+    
+    /* flex propertise */
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.child{
+    /* height: 20px; */
+    background-color: lightsteelblue;
+    margin: 10px;
+    padding: 18px;
+    border: 2px solid rgba(37, 36, 36, 0.795);
+    border-radius: 10px;
+    font-size: 18px;
+    /* display: inline; */
+}
