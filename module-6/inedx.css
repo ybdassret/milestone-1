@@ -3,6 +3,8 @@
 	--dark2-color: #474747;
 	--dark1-color: #181818;
 	--dark3-color: #757575;
+	--white1-color: #fff8f3;
+	--white2-color: #ffffff;
 }
 .open-sans-super {
 	font-family: "Open Sans", sans-serif;
@@ -22,23 +24,21 @@
 } */
 
 .container {
-    width: 75%;
-    margin: 0 auto;
-    height: 100vh;
-    display: flex
-;
-    flex-direction: column;
-    justify-content: space-between;
+	width: 75%;
+	margin: 0 auto;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
-header{
-    position: relative;
-    height: 100vh;
-    background: url("../module-6/portfolio-resources/images/header_bg.png");
-    background-repeat: no-repeat;
-    background-position: right bottom, top 108px left 23px;
-    /* background: lightblue url("../module-6/portfolio-resources/images/header_bg.png") no-repeat right bottom; */
-    
+header {
+	position: relative;
+	height: 100vh;
+	background: url("../module-6/portfolio-resources/images/header_bg.png");
+	background-repeat: no-repeat;
+	background-position: right bottom, top 108px left 23px;
+	/* background: lightblue url("../module-6/portfolio-resources/images/header_bg.png") no-repeat right bottom; */
 }
 nav {
 	display: flex;
@@ -46,7 +46,7 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 50px;
-    padding-top: 50px;
+	padding-top: 50px;
 }
 ul {
 	display: flex;
@@ -73,12 +73,14 @@ li a {
 .Ocolor {
 	color: #fd6e0a;
 }
-.btn1,.btn2,.btn3{
+.btn1,
+.btn2,
+.btn3 {
 	color: white;
 	background-color: var(--orange-color);
 	border-radius: 5px;
 	padding: 18px 35px;
-    /* text-align: center; */
+	/* text-align: center; */
 	font-size: 20px;
 	font-weight: bold;
 	border: none;
@@ -88,62 +90,182 @@ li a {
     justify-content: space-between;
 } */
 
- /* banner code */
- .banner{
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        gap: 350px;
-        height: 100%;
- }
- .banner-img{
-    position: relative;
-    align-self: flex-end;
- }
- .banner-img1{
-    margin-bottom: -5px;
-    margin-right: -116px;
- }
- .banner-description{
-    width: 585px;
-    height: 356px;
- }
- .banner-description h3{
-    font-size: 45px;
-    font-weight: 600;
-    color: var(--dark2-color);
- }
- .banner-description h1{
-    font-size: 85px;
-    font-weight: 700;
-    color: var(--dark1-color);
-    margin-bottom: 20px;
- }
- .banner-description p{
-    font-size: 18px;
-    font-weight: 400;
-    color: var(--dark3-color);
-    line-height: 30px;
- }
- .description-sec{
-    width: 585px;
-    height: 262px;
-    margin-bottom: 20px;
- }
- .developer{
-position: absolute;
-    transform: rotate(270deg);
-    transform-origin: left top;
-    bottom: -10px;
-    letter-spacing: 48px;
-    font-size: 100px;
-    color: #181818;
-    opacity: 15%;
-    font-weight: 700;
-    margin-bottom: 25px;
-    bottom: -136px;
-    left: 23px;
- }
- /* .banner-img2{
+/* banner code */
+.banner {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	gap: 350px;
+	height: 100%;
+}
+.banner-img {
+	position: relative;
+	align-self: flex-end;
+}
+.banner-img1 {
+	margin-bottom: -5px;
+	margin-right: -116px;
+}
+.banner-description {
+	width: 585px;
+	height: 356px;
+}
+.banner-description h3 {
+	font-size: 45px;
+	font-weight: 600;
+	color: var(--dark2-color);
+}
+.banner-description h1 {
+	font-size: 85px;
+	font-weight: 700;
+	color: var(--dark1-color);
+	margin-bottom: 20px;
+}
+.banner-description p {
+	font-size: 18px;
+	font-weight: 400;
+	color: var(--dark3-color);
+	line-height: 30px;
+}
+.description-sec {
+	width: 585px;
+	height: 262px;
+	margin-bottom: 20px;
+}
+.developer {
+	position: absolute;
+	transform: rotate(270deg);
+	transform-origin: left top;
+	bottom: -10px;
+	letter-spacing: 48px;
+	font-size: 100px;
+	color: #181818;
+	opacity: 15%;
+	font-weight: 700;
+	margin-bottom: 25px;
+	bottom: -136px;
+	left: 23px;
+}
+/* .banner-img2{
     display: none;
  } */
+
+/* about style */
+
+.about {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.out-sec {
+	width: 1140px;
+	height: 550px;
+	padding: 131px 157px;
+	background-color: var(--white1-color);
+	border-radius: 10px;
+}
+.about-sec {
+	height: 288px;
+	width: 827px;
+	background-color: var(--white2-color);
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	border: 1px solid var(--dark1-color);
+}
+.about-head {
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+}
+.about-body {
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	color: var(--dark3-color);
+}
+.about-foot {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.title-name {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+	color: var(--dark3-color);
+	line-height: 30px;
+}
+.title-info {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	color: var(--dark2-color);
+}
+
+/* work style */
+
+.work {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+.work-head {
+	font-size: 35px;
+	font-weight: 700;
+}
+.work-body {
+	height: 90px;
+	width: 909px;
+}
+.work-body p {
+	font-size: 18px;
+	font-weight: 400;
+	color: var(--dark3-color);
+	line-height: 30px;
+	text-align: center;
+}
+.work-foot {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 30px;
+}
+.foot {
+	background-color: var(--white2-color);
+	height: 377px;
+	width: 267px;
+	padding: 30px;
+	display: flex;
+	/* justify-content: center; */
+	align-items: start;
+	gap: 30px;
+	flex-direction: column;
+	filter: drop-shadow(0px 6px 50px rgba(0, 0, 0, 0.06));
+	border-radius: 5px;
+}
+.discrip{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    height: 243px;
+    width: 204px;
+    justify-content: space-between;
+}
+.discrip :first-child{
+    font-size: 20px;
+    font-weight: 700;
+}
+.discrip :nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--dark3-color);
+}
