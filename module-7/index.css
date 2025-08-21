@@ -1,0 +1,101 @@
+:root {
+	--blue1-color: #0d1321;
+	--white-color: #ffffff;
+}
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body.azeret-mono-super, 
+body.azeret-mono-super button,
+body.azeret-mono-super input,
+body.azeret-mono-super select,
+body.azeret-mono-super textarea  {
+	font-family: "Azeret Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+header {
+	height: 100vh;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 131px;
+	/* padding: 0 150px; */
+}
+.nav-logo {
+	font-size: 28px;
+	font-weight: 800;
+	color: var(--blue1-color);
+	margin-left: 150px;
+}
+.btn1 {
+	padding: 17px 24px;
+	margin-right: 150px;
+	/* height: 57px;
+    width: 244px; */
+	font-size: 20px;
+	font-weight: 600;
+	opacity: 80%;
+	color: var(--blue1-color);
+	border: 1px solid var(--blue1-color);
+	border-radius: 8px;
+	background-color: transparent;
+}
+.header {
+	height: 82%;
+	background: url(../module-7/B10A1-Challenge-Begins/assets/Hero-bg.png);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 32px;
+    background-size: 100% 100%;
+
+}
+.main-icon {
+	height: 100%;
+	width: 100%;
+}
+.main-text {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+    justify-content: center;
+    align-items: center;
+	gap: 24px;
+	/* height: 212px;
+	width: 998px; */
+}
+.text-headline {
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 68px;
+	color: var(--blue1-color);
+    width: 998px;
+}
+.text-discrip {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: var(--blue1-color);
+    opacity: 70%;
+    width: 852px;
+    text-align: center;
+}
+.btn2 {
+	padding: 21px 24px;
+	background-color: var(--blue1-color);
+	border-radius: 8px;
+	border: none;
+}
+.btn2 a {
+	color: var(--white-color);
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+}
