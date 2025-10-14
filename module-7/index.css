@@ -107,6 +107,8 @@ header {
     padding: 74px 148px 80px 152px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
   }
   .main-Question{
@@ -148,7 +150,6 @@ header {
     justify-content: space-between;
     gap: 36px;
     border-radius: 16px;
-    background-color: linear-gradient(to right white, transparent);
     /* height: 336px;
     width: 946px; */
 }
@@ -156,6 +157,10 @@ header {
 .example-2nd{
     gap: 64px;
     justify-content: initial;
+    background: linear-gradient(270deg, white, rgba(0, 0, 0, 0));
+}
+.example-1st, .example-3rd{
+    background: linear-gradient(90deg, white, rgba(0, 0, 0, 0));
 }
 .left-sec{
     display: flex;
@@ -186,11 +191,31 @@ header {
     opacity: 70%;
     width: 390px;
   }
-  .same-btn ,b{
-    font-weight: 600;
+  .same-btn{
+    font-weight: 500;
     font-size: 20px;
     color: var(--blue1-color);
     padding: 12px 20px ;
-    border: var(--blue1-color);
+    border: 1px solid var(--blue1-color);
+    background-color: transparent;
+    opacity: 70%;
   }
+  .main-inspiration{
+    height: 775px;
+    width: 1140px;
+    margin: 90px 0px 151px 0px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 48px; */
+    align-items: center;
+    justify-content: space-between;
+}
+  .inspiration-img{
+    height: 550px;
+    width: 1076px;
+    background-color: var(--blue2-color);
+    padding: 32px;
+    border-radius: 16px; 
+}
+    
 
